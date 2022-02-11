@@ -1,0 +1,23 @@
+@media screen and (max-width:700px){
+    header .container, .containerPS,.containerPH,.containerPJ,.containerPM,.containerPT{
+         display: inline-flex;
+         flex-direction: column;
+    }
+    body .conteudoprincipal,.conteudoprincipalPS,.conteudoprincipalPH,.conteudoprincipalPJ,.conteudoprincipalPM,.conteudoprincipalPT{
+        display: inline-flex;
+        flex-direction: column;
+        width:50%;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 260px;
+        
+    }
+}
+
+@media screnn and (min-width:1000px){
+    .descrecao{
+        width:50%;
+    }
+}
